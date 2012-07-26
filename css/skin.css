@@ -1,0 +1,181 @@
+/* GENERAL ------------------------------------------------------------*/
+
+body{
+	color: #888;
+}
+
+body,
+.home-block-heading span,
+.page-heading span{
+	background: #fff;
+	/*background: #ebebe8;*/
+}
+
+body a{ color: #444; }
+
+body a:hover,
+#top-widget-holder a:hover,
+#nav>li>a:hover,
+.project-heading .launch:hover{
+	color: #ea4c88;
+}
+
+h1,h2,h3,h4,h5,h6{ color: #444444; }
+
+/* Selection colours (easy to forget) */
+
+::selection 	 	{background: #ea4c88; color: #fff; }
+::-moz-selection 	{background: #ea4c88; color: #fff; }
+img::selection 		{background: transparent;}
+img::-moz-selection	{background: transparent;}
+body {-webkit-tap-highlight-color: #ea4c88;}
+
+/* HEADER ------------------------------------------------------------*/
+
+header{ background: #444 url(../img/header.png) bottom left repeat-x; }
+
+
+/* WIDGETS------------------------------------------------*/
+
+#top-widget-holder{
+    background: #333;
+    color: #aaaaaa;
+}
+
+#top-widget-holder h4{
+	color: #ebebe8;
+}
+
+#top-widget-holder a{
+	color: #fff;
+}
+
+/* NAVIGATION ------------------------------------------------------------*/
+
+nav a{ color: #E2E0D7; }
+
+#nav>li.current-menu-item>a,
+#nav>li.current_page_item>a{
+	color: #E2E0D7;
+}
+
+/* sub navigation -----------------------------------------------------*/
+
+#nav>li ul{ background: #2f2f2f; }
+
+#nav>li ul li a{ color: #717171; }
+
+#nav>li ul li a:hover,
+#nav>li ul li:nth-child(even) a:hover{
+	background: #ea4c88;
+	color: #fff;
+}
+
+#nav>li ul li:nth-child(even) a{
+	background: #333333;
+}
+
+/* BREADCRUMBS ------------------------------------------------------------*/
+
+.breadcrumbs{ color: #444; }
+
+.breadcrumbs a{ color: #888; }
+
+
+/* CONTACT CONTENT ------------------------------------------------------------*/
+
+#contact-sidebar{ background: #e2e0d7; }
+
+
+/* SIDEBAR ------------------------------------------------------------*/
+
+#sidebar{ background: #e2e0d7; }
+
+#sidebar .block{ border-bottom: 1px solid #bcbcba; }
+
+/* HOME ------------------------------------------------------------*/
+
+.home-block figcaption{
+	background: #ea4c88;
+	color: #f1f1f1;
+}
+
+/* PORTFOLIO ------------------------------------------------------------*/
+
+.portfolio-thumbs figcaption{
+	background: #ea4c88;
+	color: #f1f1f1;
+}
+
+/* PROJECT ------------------------------------------------------------*/
+
+.project-heading .launch{ color: #888; }
+
+.project-info strong{ color: #444; }
+
+.project-pager a{ color: #444; }
+
+.project-pager a:hover{ 	color: #ea4c88; }
+
+/* RELATED PROJECTS ---------------------------------------------------*/
+
+.related-heading{ color: #444; }
+
+.related-projects .thumb{ background: #ea4c88 url(../img/plus.png) center center no-repeat; }
+
+
+/* BLOG ------------------------------------------------------------*/
+
+#posts-list .feature-image,
+#post-content .feature-image{ background: #ea4c88 url(../img/plus.png) center center no-repeat; }
+
+article .meta{
+	border-top: 1px solid #cecece;
+	border-bottom: 1px solid #cecece;
+	overflow: hidden;
+}
+
+#posts-list .entry-date{ color: #f1f1f1; }
+
+/* PAGE NAVIGATION ------------------------------------------------------------*/
+
+.page-navigation a{
+	background: #444 url(../img/noise.png) repeat;
+	color: #f1f1f1;
+}
+
+.page-navigation a:hover{
+	background: #ea4c88;
+	color: #fff;
+}
+
+/* PAGER ------------------------------------------------------------*/
+
+.pager li a{ color: #444; }
+
+.pager li:hover a{
+	color: #fff;
+	background: #ea4c88;
+}
+
+.pager li.active a{ 
+	background: #444;
+	color: #fff;
+}
+
+/* SLIDER ------------------------------------------------------------*/
+
+#slider-holder #headline{ background: #e2e0d7; }
+
+
+
+/* FOOTER ------------------------------------------------------------*/
+
+
+footer .wrapper{
+	background: url(../img/footer.png) repeat-x top center;
+}
+
+.footer-bottom{
+	border-top: 1px solid #ccc;
+}

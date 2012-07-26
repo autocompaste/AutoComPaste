@@ -1,0 +1,527 @@
+/*	Less Framework 4
+	http://lessframework.com
+	by Joni Korpi
+	License: http://opensource.org/licenses/mit-license.php	*/
+
+
+/*	Resets
+	------	*/
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, 
+p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, 
+img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figure, figcaption, hgroup, 
+menu, footer, header, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, canvas, figure, figure img, figcaption, hgroup,
+footer, header, nav, section, audio, video {
+	display: block;
+}
+
+a img {border: 0;}
+
+
+
+
+
+
+/*		Default Layout: 992px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+
+
+#comboNav {
+  display: none;
+}
+
+.wrapper {
+	width: 940px;
+	-webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
+}
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+	
+	#nav {
+		display: block;
+	}
+	
+	#comboNav {
+		display: none;
+	}
+	
+	.wrapper {
+		width: 712px;
+	}
+	
+	
+	/* slider */
+	
+	.home-slider{
+		width: 712px;
+	}
+	
+	.home-slider-clearfix {
+		clear: both;
+	}
+	
+	/* headline */
+	
+	#slider-holder #headline{
+		float:none;
+		width: 672px; /* 712 - 40 */
+		padding: 50px 20px 20px 20px;
+		margin-top: 0px;
+		min-height: 100px;
+		border-top: 1px solid #ccc;
+	}
+	
+	#headline em#corner{
+		display: none;
+	}
+	
+	/* widget cols */
+	
+	.widget-cols>li{
+		width: 160px;
+		float: left;
+		margin-right: 24px;
+	}
+	
+	.recent-post .post-head {
+		width: 95px;
+	}
+	
+	/* home blocks */
+	
+	.one-third-thumbs figure { width: 224px; }
+	
+	.one-fourth-thumbs figure{ 
+		width: 160px;
+		margin-right: 24px;
+	}
+		
+	.home-block figcaption em,
+	.home-block figcaption span{
+		display: none;
+	}
+	
+	/* sidebar */
+	
+	#sidebar{
+		position: relative;
+		background: #e2e0d7;
+		width: 532px; /* 552 - 20 padding */
+		float: right;
+		padding: 20px 10px 20px 10px;
+		margin-top: 30px;
+		margin-bottom: 60px;
+	}
+	
+	#sidebar em#corner{ display: none; }
+	
+	/* blog */
+	
+	#posts-list .feature-image,
+	#post-content .feature-image{
+		width: 552px;
+	}
+	
+	/* portfolio */
+	
+	.portfolio-thumbs{ width: 732px; }
+	
+	.portfolio-thumbs figure{ width: 224px; }
+	
+	/* project */
+	
+	.project-description{ width: 528px; margin-right: 24px;}
+	
+	.project-info{ width: 160px; }
+	
+	.related-projects{
+		width: 712px; 
+	}
+	
+	.related-projects  figure{
+		width: 160px;
+		margin-right: 24px;
+	}
+	
+	.related-projects figure.last{ margin-right: 0px; }
+	
+	/* contact */
+	
+	#contactForm{ 
+		width: 528px;
+		margin-right: 24px;
+	}
+	
+	#contact-sidebar{ width: 140px; /* 160 - 20*/ }
+}
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+	
+	#nav {
+		display: none;
+	}
+	
+	#comboNav {
+		display: block;
+	}
+	
+	.wrapper {
+		width: 252px;
+	}
+	
+	.page-heading{ 
+		text-align: center;
+		background-position: 0px 15px;
+	}
+	
+	.page-heading span{ 
+		font-size: 21px;
+		margin-left: 0px;
+	}
+	
+	/* slider */
+	
+	.home-slider{
+		width: 252px;
+	}
+	
+	.home-slider-clearfix {
+		clear: both;
+	}
+	
+	/* home blocks */
+	
+	.one-third-thumbs figure,
+	.one-fourth-thumbs figure { width: 100%; }
+	
+	/* nav */
+	
+	#nav>li{
+		display: block;
+		width: 252px;
+		margin-right: 15px;
+	}
+	
+	#nav>li a{
+		border-bottom: solid #333 1px;
+		padding: 10px 0px;
+		text-align: center;
+	}
+	
+	#nav>li.current-menu-item>a,
+	#nav>li.current_page_item>a{
+		border-bottom: solid #333 1px;
+		background: rgba(0,0,0,.2);
+	}	
+	
+	#nav>li ul{
+		float:left;
+		position:relative;
+		width: 100%;
+	}
+	
+	/* headline */
+	
+	#slider-holder #headline{
+		float:none;
+		width: 212px; /* 252 - 40 */
+		padding: 50px 20px 20px 20px;
+		margin-top: 0px;
+		min-height: 100px;
+		border-top: 1px solid #ccc;
+	}
+	
+	#headline em#corner{
+		display: none;
+	}
+	
+	#headline h1,
+	.home-block-heading{
+		font-size: 24px;
+		line-height: 1.2em;
+		margin-bottom: 15px;
+	}
+	
+	/* widget cols */
+	
+	.widget-cols>li{
+		width: 252px;
+		float: left;
+		margin-right: 0px;
+		border-bottom: 1px solid #ccc;
+		padding-bottom: 20px;
+		margin-bottom: 35px;
+	}
+	
+	.widget-cols>li.fourth-col{ 
+		border-bottom: none;
+		margin-bottom: 0px;
+	}
+	
+	header .widget-cols>li{ border-bottom-color: #4f4f4f; }
+	
+	/* sidebar */
+	
+	#sidebar{
+		position: relative;
+		background: #e2e0d7;
+		width: 232px; /* 252 - 20 padding */
+		float: right;
+		padding: 20px 10px 20px 10px;
+		margin-top: 30px;
+		margin-bottom: 60px;
+	}
+	
+	#sidebar em#corner{ display: none; }
+	
+	/* blog */
+	
+	.floated-content,
+	#posts-list,
+	#post-content{
+		width: 252px;
+		margin-right: 0px;
+	}
+	
+	#posts-list article{
+		padding-left: 0px;
+	}
+	
+	#posts-list .feature-image,
+	#post-content .feature-image{
+		width: 252px;
+	}
+	
+	#posts-list .post-heading{
+		font-size: 24px;
+	}
+	
+	article .meta .comments{
+		border-left: none;	
+		border-right: none;
+	}
+	
+	#posts-list .entry-date{
+		position: static;
+		width: 100%;
+		height: auto;
+		background: #444;
+		padding: 10px 0px;
+		font-family: Helvetica, Arial, sans-serif;
+		font-size: 12px;
+		text-align: center;
+		
+		-webkit-box-shadow: 2px 2px 0px rgba(0,0,0,.2);
+		-moz-box-shadow: 2px 2px 0px rgba(0,0,0,.2);
+		-o-box-shadow: 2px 2px 0px rgba(0,0,0,.2);
+		box-shadow: 2px 2px 0px rgba(0,0,0,.2);
+	}
+	
+	#posts-list .entry-date .number{
+		display: inline;
+		padding-top: 0px;
+		font-size: 12px;
+	}
+	
+	#posts-list .entry-date .year{
+		display: inline;
+		padding-top: 5px;
+		font-size: 12px;
+	}
+	
+	article .meta div{
+		padding: 10px 10px 10px 30px;
+
+	}
+	
+	.heading{
+		font-size: 21px;
+	}
+	
+	/* page navi */ 
+	
+	.page-navigation{
+		display: block;
+		margin-left: 0px;
+		margin-bottom: 60px;
+	}
+	
+	.page-navigation a{
+		padding: 7px 9px;
+	}
+	
+	/* portfolio */
+	
+	.portfolio-thumbs{ width: 252px; }
+	
+	.portfolio-thumbs figure{ width: 252px; }
+	
+	
+	/* project */
+	
+	
+	.project-description{ width: 252px; margin-right: 0px;}
+	
+	.project-info{ width: 252px; }
+	
+	.project-heading .launch{ padding-top: 20px; clear: both; }
+	
+	.related-projects{
+		width: 252px; 
+	}
+	
+	.related-projects  figure{
+		width: 252px;
+		margin-right: 0px;
+		margin-bottom: 20px;
+	}
+	
+	.related-projects .heading{ font-size: 13px; }
+	
+	/* form */
+	
+	#contactForm{ width: 252px; }
+	
+	#contactForm label,
+	#commentform label{
+		padding-left: 0px;
+		padding-bottom: 10px;
+		margin-top: -15px;
+		display: block;
+	}
+	
+	#contact-sidebar{ width: 232px; /* 252 - 20*/ }
+	
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	.wrapper {
+		width: 436px;
+	}
+	
+	/* slider */
+	
+	.home-slider{
+		width: 436px;
+	}
+	
+	.home-slider-clearfix {
+		clear: both;
+	}
+	
+	/* headline */
+	
+	#slider-holder #headline{
+		width: 396px; /* 436 - 40 */
+	}
+	
+	/* widget cols */
+	
+	.widget-cols>li{
+		width: 436px;
+		float: left;
+		margin-right: 0px;
+	}
+	
+	.recent-post .post-head {
+		width: 372px;
+	}
+	
+	/* nav */
+	
+	#nav>li{ width: 436px; }
+	
+	/* sidebar */
+	
+	#sidebar{ width: 416px; /* 436 - 20 padding */ }
+	
+	/* blog */
+	
+	.floated-content,
+	#posts-list,
+	#post-content{ width: 416px; }
+	
+	#posts-list .feature-image,
+	#post-content .feature-image{
+		width: 416px;
+	}
+	
+	/* portfolio */
+	
+	.portfolio-thumbs{ width: 436px; }
+	
+	.portfolio-thumbs figure{ width: 436px; }
+	
+	/* project */
+	
+	.project-description{ width: 436px; margin-right: 0px;}
+	
+	.project-info{ width: 436px; }
+	
+	
+	.related-projects{
+		width: 436px; 
+	}
+	
+	.related-projects  figure{
+		width: 436px;
+		margin-right: 0px;
+		margin-bottom: 20px;
+	}
+	
+	.related-projects .heading{  font-size: 13px; }
+	
+	/* form */
+	
+	#contactForm{ width: 436px; }
+	
+	#contact-sidebar{ width: 416px; /* 436 - 20*/ }
+
+	
+}
