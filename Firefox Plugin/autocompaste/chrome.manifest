@@ -1,0 +1,7 @@
+content   autocompaste                 chrome/content/
+skin      autocompaste   classic/1.0   chrome/skin/
+locale    autocompaste   en-US         chrome/locale/en-US/
+
+
+overlay   chrome://browser/content/browser.xul   chrome://autocompaste/content/autocompaste-ui.xul
+style chrome://global/content/customizeToolbar.xul chrome://autocompaste/skin/overlay.css

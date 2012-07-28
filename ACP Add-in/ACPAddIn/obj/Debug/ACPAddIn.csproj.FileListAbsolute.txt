@@ -1,0 +1,38 @@
+D:\School Stuff\NUS School Work\Year 2 Special 1\CS3282\respository\WordAddIn\ACPAddIn\bin\Debug\ACPAddIn.dll
+D:\School Stuff\NUS School Work\Year 2 Special 1\CS3282\respository\WordAddIn\ACPAddIn\bin\Debug\ACPAddIn.pdb
+D:\School Stuff\NUS School Work\Year 2 Special 1\CS3282\respository\WordAddIn\ACPAddIn\bin\Debug\ACPAddIn.dll.manifest
+D:\School Stuff\NUS School Work\Year 2 Special 1\CS3282\respository\WordAddIn\ACPAddIn\bin\Debug\ACPAddIn.vsto
+D:\School Stuff\NUS School Work\Year 2 Special 1\CS3282\respository\WordAddIn\ACPAddIn\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+D:\School Stuff\NUS School Work\Year 2 Special 1\CS3282\respository\WordAddIn\ACPAddIn\bin\Debug\Microsoft.Office.Tools.Word.v4.0.Utilities.dll
+D:\School Stuff\NUS School Work\Year 2 Special 1\CS3282\respository\WordAddIn\ACPAddIn\bin\Debug\Newtonsoft.Json.dll
+D:\School Stuff\NUS School Work\Year 2 Special 1\CS3282\respository\WordAddIn\ACPAddIn\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.xml
+D:\School Stuff\NUS School Work\Year 2 Special 1\CS3282\respository\WordAddIn\ACPAddIn\bin\Debug\Microsoft.Office.Tools.Word.v4.0.Utilities.xml
+D:\School Stuff\NUS School Work\Year 2 Special 1\CS3282\respository\WordAddIn\ACPAddIn\bin\Debug\Newtonsoft.Json.pdb
+D:\School Stuff\NUS School Work\Year 2 Special 1\CS3282\respository\WordAddIn\ACPAddIn\bin\Debug\Newtonsoft.Json.xml
+D:\School Stuff\NUS School Work\Year 2 Special 1\CS3282\respository\WordAddIn\ACPAddIn\obj\Debug\ResolveAssemblyReference.cache
+D:\School Stuff\NUS School Work\Year 2 Special 1\CS3282\respository\WordAddIn\ACPAddIn\obj\Debug\ACPAddIn.AutoCompleteForm.resources
+D:\School Stuff\NUS School Work\Year 2 Special 1\CS3282\respository\WordAddIn\ACPAddIn\obj\Debug\ACPAddIn.Properties.Resources.resources
+D:\School Stuff\NUS School Work\Year 2 Special 1\CS3282\respository\WordAddIn\ACPAddIn\obj\Debug\GenerateResource.read.1.tlog
+D:\School Stuff\NUS School Work\Year 2 Special 1\CS3282\respository\WordAddIn\ACPAddIn\obj\Debug\GenerateResource.write.1.tlog
+D:\School Stuff\NUS School Work\Year 2 Special 1\CS3282\respository\WordAddIn\ACPAddIn\obj\Debug\ACPAddIn.dll
+D:\School Stuff\NUS School Work\Year 2 Special 1\CS3282\respository\WordAddIn\ACPAddIn\obj\Debug\ACPAddIn.pdb
+C:\Users\CHIN HUI MAC\Desktop\CS3282\3282 workspace\ACP Add-in\ACPAddIn\bin\Debug\ACPAddIn.dll
+C:\Users\CHIN HUI MAC\Desktop\CS3282\3282 workspace\ACP Add-in\ACPAddIn\bin\Debug\ACPAddIn.pdb
+C:\Users\CHIN HUI MAC\Desktop\CS3282\3282 workspace\ACP Add-in\ACPAddIn\bin\Debug\ACPAddIn.dll.manifest
+C:\Users\CHIN HUI MAC\Desktop\CS3282\3282 workspace\ACP Add-in\ACPAddIn\bin\Debug\ACPAddIn.vsto
+C:\Users\CHIN HUI MAC\Desktop\CS3282\3282 workspace\ACP Add-in\ACPAddIn\bin\Debug\INIFileParser.dll
+C:\Users\CHIN HUI MAC\Desktop\CS3282\3282 workspace\ACP Add-in\ACPAddIn\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+C:\Users\CHIN HUI MAC\Desktop\CS3282\3282 workspace\ACP Add-in\ACPAddIn\bin\Debug\Microsoft.Office.Tools.Word.v4.0.Utilities.dll
+C:\Users\CHIN HUI MAC\Desktop\CS3282\3282 workspace\ACP Add-in\ACPAddIn\bin\Debug\Newtonsoft.Json.dll
+C:\Users\CHIN HUI MAC\Desktop\CS3282\3282 workspace\ACP Add-in\ACPAddIn\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.xml
+C:\Users\CHIN HUI MAC\Desktop\CS3282\3282 workspace\ACP Add-in\ACPAddIn\bin\Debug\Microsoft.Office.Tools.Word.v4.0.Utilities.xml
+C:\Users\CHIN HUI MAC\Desktop\CS3282\3282 workspace\ACP Add-in\ACPAddIn\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\CHIN HUI MAC\Desktop\CS3282\3282 workspace\ACP Add-in\ACPAddIn\bin\Debug\Newtonsoft.Json.xml
+C:\Users\CHIN HUI MAC\Desktop\CS3282\3282 workspace\ACP Add-in\ACPAddIn\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\CHIN HUI MAC\Desktop\CS3282\3282 workspace\ACP Add-in\ACPAddIn\obj\Debug\ACPAddIn.AutoCompleteForm.resources
+C:\Users\CHIN HUI MAC\Desktop\CS3282\3282 workspace\ACP Add-in\ACPAddIn\obj\Debug\ACPAddIn.Notification.resources
+C:\Users\CHIN HUI MAC\Desktop\CS3282\3282 workspace\ACP Add-in\ACPAddIn\obj\Debug\ACPAddIn.Properties.Resources.resources
+C:\Users\CHIN HUI MAC\Desktop\CS3282\3282 workspace\ACP Add-in\ACPAddIn\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\CHIN HUI MAC\Desktop\CS3282\3282 workspace\ACP Add-in\ACPAddIn\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\CHIN HUI MAC\Desktop\CS3282\3282 workspace\ACP Add-in\ACPAddIn\obj\Debug\ACPAddIn.dll
+C:\Users\CHIN HUI MAC\Desktop\CS3282\3282 workspace\ACP Add-in\ACPAddIn\obj\Debug\ACPAddIn.pdb

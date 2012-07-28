@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://autocompaste/skin/overlay.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://autocompaste/locale/overlay.dtd">
+<overlay id="autocompaste-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script src="readability.js"/>
+  <script src="autocompaste-extractmanager.js"/>
+  <script src="autocompaste-extractor.js"/>
+  <script src="autocompaste-tester.js"/>
+
+  <stringbundleset id="stringbundleset">
+    <stringbundle id="autocompaste-strings" src="chrome://autocompaste/locale/overlay.properties"/>
+  </stringbundleset>
+
+</overlay>

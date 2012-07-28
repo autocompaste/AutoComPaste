@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" onLoad="OnLoad">
+  <ribbon>
+    <tabs>
+      <tab idMso="TabAddIns">
+        <group id="triggerMode"
+               label="Trigger Mode">
+          <toggleButton id="autoModeButton" size="large" label="Automatic" imageMso="GroupIndex" getPressed="OnGetPressed"  onAction="OnAutomaticModeButtonPressed"/>
+          <toggleButton id="manualModeButton" size="large" label="Manual" imageMso="GroupIndex" getPressed="OnGetPressed"  onAction="OnManualModeButtonPressed"/>
+        </group>
+        <group id="help">
+          <button id="tourButton" size="large" label="Help" imageMso="Help" onAction="OnHelpClick"/>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
+

@@ -1,0 +1,7 @@
+<!ENTITY helloworldDisplayLabel.label "Count">
+<!ENTITY helloworldDisplayLabel.tooltip "Displays count of left mouse clicks!">
+<!ENTITY helloworldToolbarClearButton.label "Clear">
+<!ENTITY helloworldToolbarClearButton.tooltip "Set mouse left-click count to 0.">
+<!ENTITY helloworldToolbarSaveButton.label "Save">
+<!ENTITY helloworldToolbarSaveButton.tooltip "Save current count.">
+

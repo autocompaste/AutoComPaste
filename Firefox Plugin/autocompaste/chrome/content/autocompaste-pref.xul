@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+ 
+<prefwindow id="autocompaste-prefs"
+	title="AutoComPaste Options"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+ 
+	<prefpane id="sw2-stock-pane" label="Stock Settings">
+		<preferences>
+			<preference id="smart_pref" name="extensions.helloworld.mode" type="bool"/>
+		</preferences>
+		<groupbox>
+			<caption label="Smart Extraction Mode"/>
+			<radiogroup preference="smart_pref">
+				<radio value="false" label="Enable - extract only the main content" />
+				<radio value="true" label="Disable - extract all the text"/>
+			</radiogroup>
+			
+		</groupbox>
+		<groupbox>
+			<caption label="Note :"/>
+			<description> Changing the mode would extract all open pages again. This may take a while.</description>
+		</groupbox>
+	</prefpane>
+</prefwindow>

@@ -1,0 +1,36 @@
+place|
++65 69999999|
++65 68888888|
++65 67777777|
++90 4367879897|
++57 05460760540|
+url|
+http://www.yanhao.com|
+http://www.google.com|
+http://sixrevisions.com/css/css-typography-02/|
+http://datatables.net/release-datatables/examples/basic_init/filter_only.html|
+email|
+teokeecheng@gmail.com|
+ngyizhen@gmail.com|
+lokeyanhao@gmail.com|
+ngchinhui@gmail.com|
+prof_ooi@gmail.com|
+amulya@gmail.com|
+sreshta@gmail.com|
+alpha@live.com|
+bravo@aol.com|
+charlie@singnet.com.sg|
+delta@yahoo.com|
+echo@hotmail.com|
+foxtrox@abc.com|
+golf@botnet.com|
+hotel@mib.com|
+address|
+Bugis Street 4 New Bugis Street , (S)188868|
+Newater Visitor Centre 20 Koh Sek Lim Road , (S)486593|
+Downtown East - Wild Wild Wet 1 Pasir Ris Close , (S)519599|
+MINT Museum Of Toys (Moment of Imagination and Nostalgia with Toys) 26 Seah Street , (S)188382|
+The Verge #01-09, 2 Serangoon Road , (S)218227|
+Crocodile House #01-00, 3 Ubi Avenue 3 , (S)408857|
+
+

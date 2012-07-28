@@ -1,0 +1,1 @@
+pref("extensions.helloworld.mode", true);
